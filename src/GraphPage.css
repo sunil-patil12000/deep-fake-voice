@@ -1,0 +1,21 @@
+/* GraphPage.css */
+.graph-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .graph-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .line-graph {
+    height: 150px;
+    border: 1px solid #007bff;
+    margin-top: 10px;
+  }
+  
